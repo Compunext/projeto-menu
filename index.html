@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Menu Responsivo</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <menu>
+            <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis possimus sed veritatis! Maiores molestias aperiam deleniti eaque, exercitationem nostrum eveniet nobis sint libero dolore magni error velit omnis in accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sunt ullam porro doloremque corrupti unde, exercitationem molestias. Vel ea cupiditate cumque consequatur quo, natus doloremque nihil, qui dicta tempore ab.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam a nulla possimus corporis, voluptas ratione perspiciatis totam distinctio culpa eum praesentium autem modi deleniti quisquam, doloribus officia tenetur. At, inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita iste nesciunt omnis animi accusantium qui facilis laudantium, perspiciatis, explicabo quod et ipsum sunt accusamus vel quasi suscipit illo architecto adipisci?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis unde commodi, veniam nobis labore velit magnam et repellat, officia sunt? Ullam, omnis natus. Fugit commodi quaerat eligendi nulla quo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quam amet dicta voluptatem. Inventore, optio fugit rem aliquid quod architecto quam labore id est. Maxime eveniet distinctio nostrum aspernatur nulla.
+            </p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if(window.innerWidth >= 768) { 
+                itens.style.display = 'block'
+            } else {
+                itebs.style.display = 'none'
+            }
+        }
+    </script>
+    
+</body>
+</html>
